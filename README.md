@@ -48,7 +48,7 @@ Provides a high-level overview of business performance and highlights key findin
 
 ##  Key Features
 
-- 15 KPI Cards covering Total Sales, Total Profit, Total Orders, Average Sales, and Profit Margin
+- 5 KPI Cards covering Total Sales, Total Profit, Total Orders, Average Sales, and Profit Margin
 - 8 Interactive Visualizations including bar charts, column charts, line charts, donut charts, maps, and matrices
 - Interactive Slicers for Region, Order Date, Category, and Segment
 - Custom DAX Measures for core business metrics and performance analysis
