@@ -87,19 +87,29 @@ These findings were used to identify business risks, opportunities, and recommen
 
 ##  Files in This Repository
 
-| File | Description |
+| File / Folder | Description |
 |---|---|
 | Superstore_Dashboard.pbix | Power BI dashboard project file |
-| Sample - Superstore.csv | Source dataset used for analysis |
-| Superstore_Dashboard.pdf | Exported dashboard/report |
+| Sample - Superstore.csv | Source dataset used for the analysis |
+| Superstore_Dashboard.pdf | Exported PDF version of the completed dashboard |
+| PowerBI_Overview_Insights_Recommendations.docx | Project documentation covering dashboard overview, key insights, risks, opportunities, and recommendations |
+| screenshots/ | Dashboard screenshots used to showcase the project |
 
-## 🎯 Business Objective
+###  Dashboard Screenshots
+
+The screenshots/ folder contains screenshots of the three main dashboard sections:
+
+- sales & regional performance.png — Sales and regional performance analysis
+- category and customer analysis.png — Category and customer analysis
+- summary and insights.png — Executive summary, insights, risks, opportunities, and recommendations
+
+##  Business Objective
 
 The primary objective of this project was to transform transactional retail data into an interactive decision-support tool that enables stakeholders to quickly understand business performance, identify areas of concern, and discover opportunities for growth.
 
 The dashboard demonstrates how Business Intelligence can help move an organization from simply viewing historical data to making data-driven strategic and operational decisions.
 
-## 👤 About the Project
+##  About the Project
 
 This project was completed as part of my Data Analytics Internship at AnalystLab Africa, with a focus on developing practical skills in Power BI, data analysis, and Business Intelligence.
 
