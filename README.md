@@ -1,116 +1,117 @@
-#  Superstore BI Dashboard
+# Superstore Sales & Business Intelligence Dashboard
 
-An interactive Power BI dashboard built using the Superstore retail sales dataset, developed as a Junior BI Analyst case study for AnalystLab Africa Consulting.
+AnalystLab Africa | Data Analytics Internship Programme  
+Week 2: Business Intelligence & Interactive Dashboard Development  
+Week 3: Advanced Data Analysis, KPI Development & Business Intelligence Dashboard
 
-The project focuses on transforming raw transactional data into meaningful business insights that can support better strategic and operational decision-making.
+## Overview
 
-##  Project Overview
+This project started in Week 2 as a Power BI dashboard focused on understanding sales, profit, customers, and regional performance for a retail business.
 
-This project transforms raw retail transaction data into an executive-ready Business Intelligence dashboard designed to help stakeholders monitor and understand:
+In Week 3, I continued working on the same dashboard and added more detailed analysis. I looked deeper into the effect of discounts on profit, investigated the underperformance of the South region, and added time-based analysis to better understand sales and profit trends.
 
-- Sales performance
-- Profitability
-- Regional performance
-- Category and sub-category trends
-- Customer segment behavior
-- Seasonal sales patterns
+I also added new KPIs, DAX measures, and more interactive features to make the dashboard easier to explore and use for decision-making.
 
-The dashboard combines interactive visualizations, KPI cards, slicers, and DAX measures to provide a clear and dynamic view of business performance.
+## Dataset
 
-##  Dashboard Structure
+- Source: Superstore Sales Dataset (Kaggle)
+- Rows: 9,994
+- Columns: 21
+- Period: 2014–2017
+- Data includes: Order details, customers, products, categories, sub-categories, regions, sales, discounts, and profit.
+
+## Dashboard Pages
+
+The dashboard has 6 pages:
 
 ### 1. Sales & Regional Performance
 
-Focuses on understanding how sales and profit vary across regions and over time.
-
-- Regional sales and profit comparisons
-- Monthly sales trends
-- State-level sales distribution
-- Identification of high- and low-performing regions
+- 5 KPI cards
+- Sales by region
+- Profit by region
+- Monthly sales trend
+- Sales distribution by state
 
 ### 2. Category & Customer Analysis
 
-Examines product performance and customer purchasing behavior.
-
-- Category sales comparison
-- Sub-category profitability
-- Customer segment performance
-- Identification of high- and low-performing products
+- Sales by category
+- Category sales share
+- Sales by customer segment
+- Sub-category sales and profit breakdown
 
 ### 3. Executive Summary & Insights
 
-Provides a high-level overview of business performance and highlights key findings.
+This page summarizes the main findings from the Week 2 analysis, including key business insights, risks, opportunities, and recommendations.
 
-- Key business insights
-- Business risks
-- Growth opportunities
-- Recommendations for stakeholders
+### 4. Discount & Profitability Analysis — Week 3
 
-##  Key Features
+- Discount vs. profit by sub-category
+- Top 10 sub-categories by average discount
+- Sub-category profitability and discount summary
 
-- 5 KPI Cards covering Total Sales, Total Profit, Total Orders, Average Sales, and Profit Margin
-- 8 Interactive Visualizations including bar charts, column charts, line charts, donut charts, maps, and matrices
-- Interactive Slicers for Region, Order Date, Category, and Segment
-- Custom DAX Measures for core business metrics and performance analysis
-- Interactive filtering and drill-down capabilities
-- Executive-focused dashboard layout
+### 5. Regional Deep-Dive — Week 3
 
-##  Key Business Insights
+- Sales vs. profit by state in the South region
+- Sales by category in the South region
+- Performance comparison across all four regions
 
-The analysis revealed several important business findings:
+### 6. Time-Based Analysis — Week 3
 
-- The West region leads in both sales and profit, while the South records the weakest performance.
-- Sales show a strong seasonal pattern, with performance peaking during November–December.
-- Technology is the leading sales category, contributing 36.4% of total sales.
-- The Consumer segment is the largest revenue contributor, generating approximately $1.16M in sales.
-- Copiers generate the highest profit at approximately $55.6K, while Bookcases record a $3.5K loss despite generating $114.9K in sales.
+- Sales trend from 2014–2017
+- Monthly sales and profit trends
+- Sales Growth KPI
 
-These findings were used to identify business risks, opportunities, and recommendations for improving overall performance.
+## KPIs
 
-##  Tools & Skills
+The dashboard tracks:
 
-### Tools
+- Total Sales
+- Total Profit
+- Total Orders
+- Average Sales
+- Profit Margin
+- Sales Growth (YoY)
 
-- Power BI
-- Power Query
-- DAX
+## DAX Measures
 
-### Skills Demonstrated
+I created DAX measures for:
 
-- Data Cleaning & Transformation
-- Data Analysis
-- Data Visualization
-- KPI Development
-- Business Intelligence
-- Dashboard Design
-- Business Insights & Recommendations
+- Total Sales
+- Total Profit
+- Total Orders
+- Average Sales
+- Profit Margin
+- Sales Growth (Year-over-Year)
 
-##  Files in This Repository
+The Sales Growth measure uses SAMEPERIODLASTYEAR to compare performance with the previous year.
 
-| File / Folder | Description |
-|---|---|
-| Superstore_Dashboard.pbix | Power BI dashboard project file |
-| Sample - Superstore.csv | Source dataset used for the analysis |
-| Superstore_Dashboard.pdf | Exported PDF version of the completed dashboard |
-| PowerBI_Overview_Insights_Recommendations.docx | Project documentation covering dashboard overview, key insights, risks, opportunities, and recommendations |
-| screenshots/ | Dashboard screenshots used to showcase the project |
+## Interactivity
 
-###  Dashboard Screenshots
+To make the dashboard easier to explore, I added slicers across different pages:
 
-The screenshots/ folder contains screenshots of the three main dashboard sections:
+- Region and Order Date slicers on Page 1
+- Category and Segment slicers on Page 2
+- Year slicers on Pages 4 and 5
+- Region slicer on Page 6
 
-- sales & regional performance.png — Sales and regional performance analysis
-- category and customer analysis.png — Category and customer analysis
-- summary and insights.png — Executive summary, insights, risks, opportunities, and recommendations
+## Key Findings from Week 3
 
-##  Business Objective
+- Sales increased by 46.88% between 2014 and 2017, but profit did not increase at the same pace. This suggests that higher sales did not necessarily translate into stronger profitability.
+- Discounts have a clear negative relationship with profitability. For example, Bookcases had an average discount of 21% and generated a net loss despite recording $114,880 in sales.
+- Florida, North Carolina, and Tennessee recorded strong sales but still made losses. This shows that high sales volume alone does not always mean good business performance.
+- The South region had the lowest profit margin at 11.93%, compared with 14.94% in the West region, even though their order volumes were relatively comparable.
+- Sales showed a clear seasonal pattern, with lower sales around February–June and stronger performance from September–December.
 
-The primary objective of this project was to transform transactional retail data into an interactive decision-support tool that enables stakeholders to quickly understand business performance, identify areas of concern, and discover opportunities for growth.
+## Deliverables
 
-The dashboard demonstrates how Business Intelligence can help move an organization from simply viewing historical data to making data-driven strategic and operational decisions.
+- Power BI Dashboard (`.pbix`)
+- Dashboard PDF Export
+- Project Continuity Summary
+- Business Insights & Recommendations Report
+- DAX Measures Documentation
+- This README
 
-##  About the Project
+## Author
 
-This project was completed as part of my Data Analytics Internship at AnalystLab Africa, with a focus on developing practical skills in Power BI, data analysis, and Business Intelligence.
-
-Week 2 Project — Superstore Sales & Business Intelligence Dashboard
+Adeleke Jubril Adedeji  
+Data Analytics Intern — AnalystLab Africa
