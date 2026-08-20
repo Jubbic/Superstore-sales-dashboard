@@ -43,19 +43,19 @@ The dashboard has 6 pages:
 
 This page summarizes the main findings from the Week 2 analysis, including key business insights, risks, opportunities, and recommendations.
 
-### 4. Discount & Profitability Analysis — Week 3
+### 4. Discount & Profitability Analysis - Week 3
 
 - Discount vs. profit by sub-category
 - Top 10 sub-categories by average discount
 - Sub-category profitability and discount summary
 
-### 5. Regional Deep-Dive — Week 3
+### 5. Regional Deep-Dive - Week 3
 
 - Sales vs. profit by state in the South region
 - Sales by category in the South region
 - Performance comparison across all four regions
 
-### 6. Time-Based Analysis — Week 3
+### 6. Time-Based Analysis - Week 3
 
 - Sales trend from 2014–2017
 - Monthly sales and profit trends
